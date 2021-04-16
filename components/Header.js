@@ -51,8 +51,8 @@ export default function HeroSection() {
                         </Button>
                     </Box>
 
-                    <Box>
-                        <Image src="/assets/rocket.png" />
+                    <Box w="80%">
+                        <Image src="/assets/rocket.png" alt="Hero Image"/>
                     </Box>
                 </Flex>
 
