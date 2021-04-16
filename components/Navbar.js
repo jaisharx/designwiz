@@ -7,7 +7,7 @@ export default function Navbar() {
         <Box as="nav" py="6">
             <Container>
                 <Flex alignItems="center">
-                    <Image src="/assets/logo.png" mr="auto" w="44" />
+                    <Image src="/assets/logo.png" mr="auto" w="22%" />
                     <Button variant="ghost" _hover={btnHoverState}>
                         Login
                     </Button>

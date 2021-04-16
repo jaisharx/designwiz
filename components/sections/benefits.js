@@ -1,9 +1,9 @@
-import { Box, Heading, Grid, Flex, Image, Text } from '@chakra-ui/react';
+import { Box, Heading, Grid, Image, Text, VStack } from '@chakra-ui/react';
 import Container from 'components/Container';
 
 function Card({ imageSrc, title, desc }) {
     return (
-        <Flex flexDirection="column">
+        <VStack alignItems="flex-start">
             <Box w="24%" h="67">
                 <Image
                     src={`/assets/benefits/${imageSrc}`}
@@ -14,7 +14,7 @@ function Card({ imageSrc, title, desc }) {
                 {title}
             </Heading>
             <Text color="#696663">{desc}</Text>
-        </Flex>
+        </VStack>
     );
 }
 

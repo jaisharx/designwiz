@@ -12,7 +12,7 @@ import Container from 'components/container';
 
 function SocialProof() {
     return (
-        <Box mt="28">
+        <Box mt="44">
             <Text textAlign="center" color="#d6c0a7">Trusted by these amazing brands</Text>
             <HStack spacing="16" mt="3">
                 <Image src="/assets/social/1.png" w="36"/>
@@ -32,14 +32,14 @@ export default function HeroSection() {
                 <Flex alignItems="center">
                     <Box mr="2">
                         <HStack>
-                            <Badge colorScheme="yellow" p="1">
+                            <Badge colorScheme="yellow" variant="solid" p="6px 10px" borderRadius="4">
                                 NEW!
                             </Badge>
                             <Text color="yellow.600">
                                 Unlimited front-end development with Webflow
                             </Text>
                         </HStack>
-                        <Heading as="h1" py="3">
+                        <Heading as="h1" py="3" fontSize="42px">
                             Delightful high-quality design. Reliable and
                             affordable.
                         </Heading>
