@@ -28,7 +28,7 @@ export default function Features() {
                             </Text>
                         </VStack>
                         <VStack w="33%" spacing="4">
-                            <Image src="/assets/features/two.png" w="33%"/>
+                            <Image src="/assets/features/two.png" w="33%" />
                             <Text textAlign="center" color="#696663">
                                 Receive your design, per your brand guidelines,
                                 within 48hrs on average - 7 days a week.
