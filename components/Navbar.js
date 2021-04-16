@@ -1,5 +1,5 @@
 import { Box, Flex, Button, Image } from '@chakra-ui/react';
-import Container from './Container';
+import Container from './container';
 
 const btnHoverState = { backgroundColor: 'none', color: 'green.600' };
 export default function Navbar() {

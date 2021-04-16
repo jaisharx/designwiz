@@ -8,7 +8,7 @@ import {
     Image,
     Button,
 } from '@chakra-ui/react';
-import Container from 'components/Container';
+import Container from 'components/container';
 
 function SocialProof() {
     return (

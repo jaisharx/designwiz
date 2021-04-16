@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import Navbar from 'components/Navbar';
-import Header from 'components/Header';
+import Navbar from 'components/navbar';
+import Header from 'components/header';
 import FeatureSection from 'components/sections/features';
 
 export default function Home() {

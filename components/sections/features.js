@@ -1,5 +1,5 @@
 import { Box, Heading, HStack, VStack, Image, Text } from '@chakra-ui/react';
-import Container from 'components/Container';
+import Container from 'components/container';
 
 export default function Features() {
     return (
