@@ -25,7 +25,7 @@ function SocialProof() {
     );
 }
 
-export default function HeroSection() {
+export default function Header() {
     return (
         <Box as="header" bgGradient="linear-gradient(180deg, #fff, #fce8d1)" py="12">
             <Container>

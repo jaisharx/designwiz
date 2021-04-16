@@ -13,7 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <Navbar/>      
+            <Navbar/>
             <Header/>
             <FeatureSection/>
             <BenefitSection/>
