@@ -1,6 +1,8 @@
-import Navbar from 'components/Navbar';
-import HeroSection from 'components/HeroSection';
 import Head from 'next/head';
+
+import Navbar from 'components/Navbar';
+import Header from 'components/Header';
+import FeatureSection from 'components/sections/features';
 
 export default function Home() {
     return (
@@ -11,7 +13,8 @@ export default function Home() {
             </Head>
 
             <Navbar/>      
-            <HeroSection/>
+            <Header/>
+            <FeatureSection/>
         </>
     );
 }
