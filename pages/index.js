@@ -2,8 +2,8 @@ import Head from 'next/head';
 
 import Navbar from 'components/navbar';
 import Header from 'components/header';
-import Features from 'components/sections/features';
-import Benefits from 'components/sections/benefits';
+import FeatureSection from 'components/sections/features';
+import BenefitSection from 'components/sections/benefits';
 
 export default function Home() {
     return (
@@ -15,8 +15,8 @@ export default function Home() {
 
             <Navbar/>
             <Header/>
-            <Features/>
-            <Benefits/>
+            <FeatureSection/>
+            <BenefitSection/>
         </>
     );
 }
