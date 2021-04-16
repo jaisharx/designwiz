@@ -4,7 +4,7 @@ import Container from 'components/container';
 function Card({ imageSrc, title, desc }) {
     return (
         <VStack alignItems="flex-start">
-            <Box w="24%" h="67">
+            <Box w="60px" h="67">
                 <Image
                     src={`/assets/benefits/${imageSrc}`}
                     alt="benefits types"
@@ -33,27 +33,27 @@ export default function Benefits() {
                     />
                     <Card
                         imageSrc="speed.png"
-                        title="Unlimited requests"
+                        title="Speedy delivery"
                         desc="Make as many design requests or revisions as you wish."
                     />
                     <Card
                         imageSrc="money.png"
-                        title="Unlimited requests"
+                        title="Fixed monthly price"
                         desc="Make as many design requests or revisions as you wish."
                     />
                     <Card
                         imageSrc="top.png"
-                        title="Unlimited requests"
+                        title="Top-grade quality"
                         desc="Make as many design requests or revisions as you wish."
                     />
                     <Card
                         imageSrc="scale.png"
-                        title="Unlimited requests"
+                        title="Flexible to scale"
                         desc="Make as many design requests or revisions as you wish."
                     />
                     <Card
                         imageSrc="unique.png"
-                        title="Unlimited requests"
+                        title="Unique and yours"
                         desc="Make as many design requests or revisions as you wish."
                     />
                 </Grid>

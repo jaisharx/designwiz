@@ -30,7 +30,7 @@ export default function HeroSection() {
         <Box as="header" bgGradient="linear-gradient(180deg, #fff, #fce8d1)" py="12">
             <Container>
                 <Flex alignItems="center">
-                    <Box mr="2">
+                    <Box>
                         <HStack>
                             <Badge colorScheme="yellow" variant="solid" p="6px 10px" borderRadius="4">
                                 NEW!
