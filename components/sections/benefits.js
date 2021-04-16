@@ -1,5 +1,5 @@
 import { Box, Heading, Grid, Image, Text, VStack } from '@chakra-ui/react';
-import Container from 'components/Container';
+import Container from 'components/container';
 
 function Card({ imageSrc, title, desc }) {
     return (
