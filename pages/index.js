@@ -7,6 +7,7 @@ import BenefitSection from 'components/sections/benefits';
 import ShowcaseSection from 'components/sections/showcase';
 import ServiceSection from 'components/sections/services';
 import PricingSection from 'components/sections/pricing';
+import Footer from 'components/footer';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
             <ShowcaseSection/>
             <ServiceSection/>
             <PricingSection/>
+            <Footer/>
         </>
     );
 }
