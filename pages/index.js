@@ -4,6 +4,7 @@ import Navbar from 'components/navbar';
 import Header from 'components/header';
 import FeatureSection from 'components/sections/features';
 import BenefitSection from 'components/sections/benefits';
+import ShowcaseSection from 'components/sections/showcase';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Header/>
             <FeatureSection/>
             <BenefitSection/>
+            <ShowcaseSection/>
         </>
     );
 }
