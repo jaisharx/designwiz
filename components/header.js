@@ -39,14 +39,14 @@ export default function Header() {
                                 Unlimited front-end development with Webflow
                             </Text>
                         </HStack>
-                        <Heading as="h1" py="3" fontSize="42px">
+                        <Heading as="h1" py="4" fontSize="42px">
                             Delightful high-quality design. Reliable and
                             affordable.
                         </Heading>
                         <Text fontSize="20px">
                             Unlimited design requests to grow your business
                         </Text>
-                        <Button mt="3" colorScheme="green">
+                        <Button mt="6" colorScheme="green" size="lg">
                             Get Started
                         </Button>
                     </Box>
