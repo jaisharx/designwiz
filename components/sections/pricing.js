@@ -24,8 +24,8 @@ function Card({ type, oldPrice, price, children }) {
                 Save 20% for life!
             </Text>
             <Box minH="72">
-                {children.map((item) => (
-                    <Text color="#696663" fontSize="22px" mt="10px">
+                {children.map((item, idx) => (
+                    <Text color="#696663" fontSize="22px" mt="10px" key={idx}>
                         {item}
                     </Text>
                 ))}
@@ -66,7 +66,7 @@ export default function Pricing() {
                         price="1,999€/mo"
                     >
                         {[
-                            <Text fontWeight="500" color="#232221">
+                            <Text as="span" fontWeight="500" color="#232221">
                                 All the design plan features plus
                             </Text>,
                             'Front-end development with Webflow',
