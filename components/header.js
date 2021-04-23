@@ -51,7 +51,7 @@ export default function Header() {
                         </Button>
                     </Box>
 
-                    <Box w="80%">
+                    <Box w="98%">
                         <Image src="/assets/rocket.png" alt="Hero Image"/>
                     </Box>
                 </Flex>
