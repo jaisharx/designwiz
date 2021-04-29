@@ -17,14 +17,14 @@ export default function Home() {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <Navbar/>
-            <Header/>
-            <FeatureSection/>
-            <BenefitSection/>
-            <ShowcaseSection/>
-            <ServiceSection/>
-            <PricingSection/>
-            <Footer/>
+            <Navbar />
+            <Header />
+            <FeatureSection />
+            <BenefitSection />
+            <ShowcaseSection />
+            <ServiceSection />
+            <PricingSection />
+            <Footer />
         </>
     );
 }
