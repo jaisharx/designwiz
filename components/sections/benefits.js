@@ -1,13 +1,17 @@
 import { Box, Heading, Grid, Image, Text, VStack } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
 
 function Card({ imageSrc, title, desc }) {
     return (
         <VStack alignItems="flex-start">
-            <Box w="60px" h="67">
-                <Image
+            <Box w="24%">
+                <NextImage
+                    width="120"
+                    height="120"
+                    objectFit="scale-down"
+                    alt="Benefits Types"
                     src={`/assets/benefits/${imageSrc}`}
-                    alt="benefits types"
                 />
             </Box>
             <Heading fontSize="2xl" fontWeight="medium" my="4">
