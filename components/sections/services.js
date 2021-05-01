@@ -1,26 +1,30 @@
 import {
+    Text,
     Box,
     Heading,
     HStack,
-    Text,
-    Image,
     UnorderedList,
     ListItem,
 } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
 
 function List({ children }) {
     return (
         <UnorderedList fontWeight="500" listStyleType="none">
             {children.map((item, idx) => (
                 <ListItem fontSize="20px" mt="20px" key={idx}>
-                    <Image
-                        src="/assets/list-img.png"
-                        display="inline-block"
-                        w="8"
-                        mr="2"
-                    />
-                    {item}
+                    <HStack align="flex-start">
+                        <Box display="inline-block" w="8" mr="2">
+                            <NextImage
+                                width="64"
+                                height="64"
+                                alt="Checkmark"
+                                src="/assets/list-img.png"
+                            />
+                        </Box>
+                        <Text>{item}</Text>
+                    </HStack>
                 </ListItem>
             ))}
         </UnorderedList>
@@ -36,7 +40,12 @@ export default function Services() {
                 </Heading>
                 <HStack>
                     <Box w="110%">
-                        <Image src="/assets/services.png" />
+                        <NextImage
+                            width="1080"
+                            height="1080"
+                            alt="Side Image"
+                            src="/assets/services.png"
+                        />
                     </Box>
                     <Box w="80%" pl="80px">
                         <List>
@@ -48,7 +57,7 @@ export default function Services() {
                                 'Banner ads',
                                 'Webflow front-end dev',
                                 'Landing pages',
-                                'and more!'
+                                'and more!',
                             ]}
                         </List>
                     </Box>
