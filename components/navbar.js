@@ -1,5 +1,6 @@
-import { Box, Flex, Button, Image } from '@chakra-ui/react';
+import { Box, Flex, Button } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
 
 const btnHoverState = { backgroundColor: 'none', color: 'green.600' };
 export default function Navbar() {
@@ -7,7 +8,15 @@ export default function Navbar() {
         <Box as="nav" py="6">
             <Container>
                 <Flex alignItems="center">
-                    <Image src="/assets/logo.png" mr="auto" w="22%" />
+                    <Flex mr="auto" w="22%">
+                        <NextImage
+                            alt="Logo"
+                            src="/assets/logo.png"
+                            width="400"
+                            height="100"
+                            objectFit="cover"
+                        />
+                    </Flex>
                     <Button variant="ghost" _hover={btnHoverState}>
                         Login
                     </Button>

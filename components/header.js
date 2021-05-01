@@ -5,21 +5,36 @@ import {
     Heading,
     HStack,
     Text,
-    Image,
     Button,
 } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
+
+function SocialBrandIcon({ src }) {
+    return (
+        <Box w="36">
+            <NextImage
+                width="300"
+                height="100"
+                alt="Trusted Brands"
+                src={`/assets/social/${src}.png`}
+            />
+        </Box>
+    );
+}
 
 function SocialProof() {
     return (
         <Box mt="44">
-            <Text textAlign="center" color="#d6c0a7">Trusted by these amazing brands</Text>
+            <Text textAlign="center" color="#d6c0a7">
+                Trusted by these amazing brands
+            </Text>
             <HStack spacing="16" mt="3">
-                <Image src="/assets/social/1.png" w="36"/>
-                <Image src="/assets/social/2.png" w="36"/>
-                <Image src="/assets/social/3.png" w="36"/>
-                <Image src="/assets/social/4.png" w="36"/>
-                <Image src="/assets/social/5.png" w="36"/>
+                <SocialBrandIcon src="1" />
+                <SocialBrandIcon src="2" />
+                <SocialBrandIcon src="3" />
+                <SocialBrandIcon src="4" />
+                <SocialBrandIcon src="5" />
             </HStack>
         </Box>
     );
@@ -27,12 +42,21 @@ function SocialProof() {
 
 export default function Header() {
     return (
-        <Box as="header" bgGradient="linear-gradient(180deg, #fff, #fce8d1)" py="12">
+        <Box
+            as="header"
+            bgGradient="linear-gradient(180deg, #fff, #fce8d1)"
+            py="12"
+        >
             <Container>
                 <Flex alignItems="center">
                     <Box>
                         <HStack>
-                            <Badge colorScheme="yellow" variant="solid" p="6px 10px" borderRadius="4">
+                            <Badge
+                                colorScheme="yellow"
+                                variant="solid"
+                                p="6px 10px"
+                                borderRadius="4"
+                            >
                                 NEW!
                             </Badge>
                             <Text color="yellow.600">
@@ -52,7 +76,12 @@ export default function Header() {
                     </Box>
 
                     <Box w="98%">
-                        <Image src="/assets/rocket.png" alt="Hero Image"/>
+                        <NextImage
+                            src="/assets/rocket.png"
+                            alt="Hero Image"
+                            width="1076"
+                            height="1080"
+                        />
                     </Box>
                 </Flex>
 
