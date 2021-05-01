@@ -1,4 +1,4 @@
-import { Box, HStack, Image, Text, Link } from '@chakra-ui/react';
+import { Box, HStack, Text, Link } from '@chakra-ui/react';
 import NextImage from 'next/image';
 
 function FooterLink({ children }) {
