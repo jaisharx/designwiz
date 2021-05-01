@@ -45,7 +45,7 @@ export default function Header() {
                     <Box>
                         <HStack>
                             <Badge
-                                colorScheme="yellow"
+                                backgroundColor="yellow.700"
                                 variant="solid"
                                 p="6px 10px"
                                 borderRadius="4"
