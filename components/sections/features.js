@@ -1,5 +1,6 @@
 import { Box, Heading, HStack, VStack, Image, Text } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
 
 export default function Features() {
     return (
@@ -21,21 +22,42 @@ export default function Features() {
 
                     <HStack mt="16" spacing="12">
                         <VStack w="100%" spacing="4">
-                            <Image src="/assets/features/one.png" w="33%" />
+                            <Box w="33%">
+                                <NextImage
+                                    width="122"
+                                    height="122"
+                                    alt="Number One"
+                                    src="/assets/features/one.png"
+                                />
+                            </Box>
                             <Text textAlign="center" color="#696663">
                                 Request a design, day or night, via Trello or a
                                 slack integration.
                             </Text>
                         </VStack>
                         <VStack w="100%" spacing="4">
-                            <Image src="/assets/features/two.png" w="33%" />
+                            <Box w="33%">
+                                <NextImage
+                                    width="122"
+                                    height="122"
+                                    alt="Number Two"
+                                    src="/assets/features/two.png"
+                                />
+                            </Box>
                             <Text textAlign="center" color="#696663">
                                 Receive your design, per your brand guidelines,
                                 within 48hrs on average - 7 days a week.
                             </Text>
                         </VStack>
                         <VStack w="100%" spacing="4">
-                            <Image src="/assets/features/three.png" w="33%" />
+                            <Box w="33%">
+                                <NextImage
+                                    width="122"
+                                    height="122"
+                                    alt="Number Three"
+                                    src="/assets/features/three.png"
+                                />
+                            </Box>
                             <Text textAlign="center" color="#696663">
                                 We’ll revise the design until you are 100%
                                 satisfied. Satisfaction is guaranteed!
