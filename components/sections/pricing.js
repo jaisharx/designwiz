@@ -74,7 +74,12 @@ export default function Pricing() {
                         price="1,999€/mo"
                     >
                         {[
-                            <Text as="span" fontWeight="500" color="#232221">
+                            <Text
+                                key="0"
+                                as="span"
+                                color="#232221"
+                                fontWeight="500"
+                            >
                                 All the design plan features plus
                             </Text>,
                             'Front-end development with Webflow',
