@@ -1,4 +1,5 @@
 import { Box, HStack, Image, Text, Link } from '@chakra-ui/react';
+import NextImage from 'next/image';
 
 function FooterLink({ children }) {
     return (
@@ -16,13 +17,27 @@ function FooterLink({ children }) {
 export default function Footer() {
     return (
         <Box as="footer" pt="60px" pb="20px" textAlign="center">
-            <Image src="/assets/logo.png" w="14%" mx="auto" />
+            <Box w="14%" mx="auto">
+                <NextImage
+                    width="400"
+                    height="100"
+                    alt="Designwiz Logo"
+                    src="/assets/logo.png"
+                />
+            </Box>
             <Text mt="6">
                 Unlimited monthly design requests for your business to run
                 smoothly...
             </Text>
             <Text mt="6">... so you can put your feet up and relax :)</Text>
-            <Image src="/assets/relax.png" w="20%" mx="auto" />
+            <Box w="20%" mx="auto">
+                <NextImage
+                    width="728"
+                    height="726"
+                    alt="Relax Footer Image"
+                    src="/assets/relax.png"
+                />
+            </Box>
             <HStack justifyContent="space-between" w="50%" mx="auto">
                 <FooterLink>Schedule a call</FooterLink>
                 <FooterLink> Join our referral program</FooterLink>
