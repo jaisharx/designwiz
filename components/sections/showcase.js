@@ -1,4 +1,5 @@
 import { Box, Heading, Grid, Image } from '@chakra-ui/react';
+import NextImage from 'next/image';
 
 function Container({ children }) {
     return (
@@ -17,16 +18,66 @@ export default function Showcase() {
                 </Heading>
 
                 <Grid templateColumns="repeat(2, 1fr)" gap="4">
-                    <Image src="/assets/showcase/s1.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s2.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s3.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s4.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s5.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s6.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s7.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s8.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s9.png" alt="Showcase Project"/>
-                    <Image src="/assets/showcase/s10.png" alt="Showcase Project"/>
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s1.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s2.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s3.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s4.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s5.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s6.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s7.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s8.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s9.png"
+                        alt="Showcase Project"
+                    />
+                    <NextImage
+                        width="1158"
+                        height="900"
+                        src="/assets/showcase/s10.png"
+                        alt="Showcase Project"
+                    />
                 </Grid>
             </Container>
         </Box>
