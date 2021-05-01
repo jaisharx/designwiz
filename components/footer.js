@@ -1,16 +1,17 @@
-import { Box, HStack, Text, Link } from '@chakra-ui/react';
+import { Box, HStack, Text } from '@chakra-ui/react';
 import NextImage from 'next/image';
 
 function FooterLink({ children }) {
     return (
-        <Link
+        <Text
+            cursor="pointer"
             color="#066756"
             fontSize="18px"
             fontWeight="700"
             textDecoration="underline"
         >
             {children}
-        </Link>
+        </Text>
     );
 }
 
