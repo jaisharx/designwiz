@@ -1,14 +1,7 @@
-import {
-    Badge,
-    Box,
-    Flex,
-    Heading,
-    HStack,
-    Text,
-    Button,
-} from '@chakra-ui/react';
+import { Badge, Box, Flex, Heading, HStack, Text } from '@chakra-ui/react';
 import Container from 'components/container';
 import NextImage from 'next/image';
+import CTAButton from './button';
 
 function SocialBrandIcon({ src }) {
     return (
@@ -70,17 +63,17 @@ export default function Header() {
                         <Text fontSize="20px">
                             Unlimited design requests to grow your business
                         </Text>
-                        <Button mt="6" colorScheme="green" size="lg">
+                        <CTAButton mt="6" colorScheme="green" size="lg">
                             Get Started
-                        </Button>
+                        </CTAButton>
                     </Box>
 
                     <Box w="98%">
                         <NextImage
-                            src="/assets/rocket.png"
-                            alt="Hero Image"
                             width="1076"
                             height="1080"
+                            alt="Hero Image"
+                            src="/assets/rocket.png"
                         />
                     </Box>
                 </Flex>

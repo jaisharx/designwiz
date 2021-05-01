@@ -1,6 +1,7 @@
 import { Box, Flex, Button } from '@chakra-ui/react';
 import Container from 'components/container';
 import NextImage from 'next/image';
+import CTAButton from './button';
 
 const btnHoverState = { backgroundColor: 'none', color: 'green.600' };
 export default function Navbar() {
@@ -20,7 +21,7 @@ export default function Navbar() {
                     <Button variant="ghost" _hover={btnHoverState}>
                         Login
                     </Button>
-                    <Button colorScheme="green">Get Started</Button>
+                    <CTAButton>Get Started</CTAButton>
                 </Flex>
             </Container>
         </Box>

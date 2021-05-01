@@ -1,4 +1,5 @@
-import { Box, Heading, Text, HStack, Button } from '@chakra-ui/react';
+import { Box, Heading, Text, HStack } from '@chakra-ui/react';
+import CTAButton from 'components/button';
 import Container from 'components/container';
 import NextImage from 'next/image';
 
@@ -31,7 +32,7 @@ function Card({ type, oldPrice, price, children }) {
                     </Text>
                 ))}
             </Box>
-            <Button colorScheme="green">Get started</Button>
+            <CTAButton>Get started</CTAButton>
         </Box>
     );
 }
