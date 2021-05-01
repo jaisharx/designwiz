@@ -1,4 +1,4 @@
-import { Box, Heading, Grid, Image } from '@chakra-ui/react';
+import { Box, Heading, Grid } from '@chakra-ui/react';
 import NextImage from 'next/image';
 
 function Container({ children }) {
