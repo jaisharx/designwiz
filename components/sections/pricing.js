@@ -1,5 +1,6 @@
-import { Box, Heading, Image, Text, HStack, Button } from '@chakra-ui/react';
+import { Box, Heading, Text, HStack, Button } from '@chakra-ui/react';
 import Container from 'components/container';
+import NextImage from 'next/image';
 
 function Card({ type, oldPrice, price, children }) {
     return (
@@ -48,7 +49,14 @@ export default function Pricing() {
                     Unlock a more affordable & convenient way <br />
                     of getting high-quality design today!
                 </Heading>
-                <Image src="/assets/lock.png" w="100px" mx="auto" />
+                <Box mx="auto" w="100px">
+                    <NextImage
+                        width="500"
+                        height="500"
+                        alt="Lock Icon"
+                        src="/assets/lock.png"
+                    />
+                </Box>
                 <HStack alignItems="stretch" spacing="4" mt="10">
                     <Card type="Design" oldPrice="1,799€/mo" price="1,499€/mo">
                         {[
