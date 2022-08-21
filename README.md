@@ -48,13 +48,13 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone git@github.com:jaisharx/designwiz.git
-    ```
+   ```sh
+   git clone git@github.com:jaisharx/designwiz.git
+   ```
 2. Install NPM packages
-    ```sh
-    npm install
-    ```
+   ```sh
+   npm install
+   ```
 
 <!-- USAGE EXAMPLES -->
 

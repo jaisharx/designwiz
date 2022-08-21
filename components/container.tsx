@@ -1,9 +1,9 @@
-import { Box } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react'
 
 export default function Container({ children }) {
-    return (
-        <Box maxW="940px" mx="auto">
-            {children}
-        </Box>
-    );
+  return (
+    <Box maxW="940px" mx="auto">
+      {children}
+    </Box>
+  )
 }
